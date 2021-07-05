@@ -1,0 +1,7 @@
+import hashlib
+
+val=input("enter value :  ")
+
+result=hashlib.md5(val.encode())
+
+print(result.hexdigest())
